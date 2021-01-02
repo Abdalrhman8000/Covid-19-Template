@@ -1,0 +1,131 @@
+
+
+.main-background{
+    background-color: #303E87;
+    height: 80vh;
+    border-bottom-right-radius:50%;
+    clip-path:circle(90% at 33% 0%);
+    border-bottom-right-radius: 360px;
+    overflow: hidden;
+    position: relative;
+}
+
+.m-b-content{
+    width: 80%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom-right-radius:70% ;
+    background-image: linear-gradient(to right  , #333B86 10% ,#BB2B7D 70%);
+}
+
+
+
+
+.m-b-content img{
+    position: absolute;
+    opacity: 0.3;
+    width: 10%;
+}
+
+
+
+
+
+.m-b-content img:nth-child(2){
+    top:70%;
+    left: 6%;
+    width:30%;
+}
+
+
+.m-b-content img:nth-child(3){
+    top:24%;
+    left:40%;
+    width:20%;
+}
+
+
+
+
+.m-b-content img:nth-child(4){
+    top:24%;
+    left:20%;
+    width:10%;
+}
+
+
+
+
+
+.main-background img:nth-child(1){
+    bottom: 0;
+    position: absolute;
+    left:53%;
+    width:32%;
+    opacity: 1;
+    z-index: 100;
+}
+
+
+
+.m-b-content img:nth-child(1){
+    top:10%;
+    left: -10%;
+    width:24%;
+    opacity:.3;
+}
+
+
+.m-b-content-h1-b-button{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+  
+}
+
+
+.m-b-content-h1-b-button h1{
+    color: var(--white-color);
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+
+
+.m-b-content-h1-b-button p{
+    color: var(--white-color);
+    font-size: 15px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.m-b-content-h1-b-button a{
+  padding: 15px 45px;
+  background-color: var(--purpel-color);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.text-mass{
+    position: absolute;
+    left: 73.5%;
+    top: 30%;
+    z-index: 100;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 11% 96%, 40% 74%, 0% 75%);
+    background-color:#303E87;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 700;
+    color:var(--white-color);
+    width: 76px;
+    height:60px;
+}

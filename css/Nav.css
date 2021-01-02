@@ -1,0 +1,122 @@
+
+
+/*---------------------Nav_Star---------------------*/
+
+nav{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 0 .3px #fff;
+}
+
+.logo-div-nav img{
+
+    max-width: 30px;
+    max-height: 30px;
+}
+
+
+.logo-div-nav span {
+   position: relative;
+   bottom: 10px;
+   left: 5px;
+   display: inline-block;
+   color: var(--white-color);
+   font-size: 17px;
+   font-weight: 700;
+}
+
+i{
+    cursor: pointer;
+}
+
+.logo-div-nav{
+    float: left;
+    width: 20%;
+    margin:1% 0 0 10% ;
+    line-height: 120px;
+}
+
+nav ul{
+    float:left;
+    width: 48%;
+    padding-top:30px ;
+}
+
+
+nav li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+nav ul  li a{
+    display: inline-block;
+    padding:10px 16px;
+    text-transform: capitalize;
+    color:var(--white-color);
+    font-size: 14px;
+    transform-origin:left;
+    opacity: .9;
+    position: relative;
+
+}
+
+
+nav ul  li:nth-child(1) a:nth-child(1){
+    font-weight: 700;
+    font-size: 14.5px;
+    opacity: 1;
+}
+
+
+.div-nav-icons{
+    float: right;
+    width: 20%;
+    line-height: 70px;
+    line-height: 100px;
+    
+}
+
+.div-nav-icons button{
+    border: 0;
+    border-radius:2px;
+    background-color:var(--white-color);
+    padding: 13px 45px;
+    position: relative;
+    font-weight: 700;
+}
+
+
+nav label{
+    float:right;
+    margin-right:10% ;
+    
+}
+#icon-1{
+    font-size: 27px;
+    color: var(--white-color);
+    display: none;
+    line-height: 100px;
+
+}
+
+#icon-2{
+    font-size: 27px;
+    color: var(--white-color);
+    display: none;
+    line-height: 100px;
+}
+
+nav input{
+    display: none;
+}
+
+/*---------------------Nav_End---------------------*/
+
+
+
+
+
