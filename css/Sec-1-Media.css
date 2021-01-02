@@ -1,4 +1,6 @@
 
+    /*---------------------media_Start_lareg---------------------*/
+ 
 @media (min-width:992px) and (max-width:1200px){
 
     
@@ -29,7 +31,11 @@
     
     }
     
+    /*---------------------media_End_lareg---------------------*/
     
+
+    /*---------------------media_Start_Meduim--------------------*/
+
     
     @media (min-width:768px) and (max-width:991px){
     
@@ -96,11 +102,15 @@
             background-image: linear-gradient(to right ,#303E87 50%,#BB2B7D 50%);
             clip-path:circle(100%);
             height: 50px;
-        
+            left: 70%;
         }
     
         }
     
+    /*---------------------media_End_Meduim--------------------*/
+
+    /*---------------------media_Start_Small--------------------*/
+
           
     @media  (min-width:200px) and (max-width:551px){
         .main-background{
@@ -153,7 +163,32 @@
             background-image: linear-gradient(to right ,#303E87 50%,#BB2B7D 50%);
             clip-path:circle(100%);
             height: 50px;
-        
+            left: 70%;
         }
         
         }
+
+    /*---------------------media_Small-End-------------------*/
+
+    /*---------------------Special-media_Aipad-Start-------------------*/
+     @media(min-width:768px) and (min-height:1020px){
+        .main-background img:nth-child(1){
+            width:100%;
+            bottom: 1%;
+            left: 14%;
+            opacity: .3;
+        }
+        
+        
+        
+        
+        .m-b-content img:nth-child(1){
+            top:10%;
+            left: -10%;
+            width:24%;
+            opacity:.3;
+        }
+    
+     }  
+    /*---------------------Special-media_Aipad-End-------------------*/
+
