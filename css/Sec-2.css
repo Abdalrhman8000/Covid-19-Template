@@ -28,6 +28,7 @@
 .item-2 img{
     width: 50%;
     padding-bottom: 8px;
+    animation: sec-2-img-animate 2s ease-in-out infinite ;
 }
 
 .item-2 p{
@@ -46,6 +47,7 @@
 .item-3 img{
     width: 50%;
     padding-bottom: 10px;
+    animation: sec-2-img-animate 2s ease-in-out infinite ;
 }
 
 
@@ -66,6 +68,7 @@
 .item-4 img{
     width: 50%;
     padding-bottom: 10px;
+    animation: sec-2-img-animate 2s ease-in-out infinite ;
 }
 
 
@@ -81,3 +84,17 @@
     font-size: 15px;
 }
 
+
+@keyframes sec-2-img-animate{
+    0%{
+        transform:rotate3d(0);
+    }
+
+    50%{
+        transform:rotatey(180deg);
+    }
+
+    100%{
+        transform:rotatey(360deg);
+    }
+}
