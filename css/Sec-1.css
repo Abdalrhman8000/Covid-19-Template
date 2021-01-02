@@ -116,16 +116,17 @@
 
 .text-mass{
     position: absolute;
-    left: 73.5%;
+    left: 77%;
     top: 30%;
     z-index: 100;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 11% 96%, 40% 74%, 0% 75%);
-    background-color:#303E87;
     border-radius: 10px;
     text-align: center;
     line-height: 48px;
     font-weight: 700;
     color:var(--white-color);
-    width: 76px;
+    width: 100px;
+    padding-left:5px;
     height:60px;
+    background-image: linear-gradient(to right ,#303E87 50%,#BB2B7D 50%);
 }
