@@ -1,0 +1,11 @@
+
+
+@media (min-width:200px) and (max-width:991px){
+    .sec-3 .row{
+        flex-direction: column;
+    }
+
+    .items-1-sec-3{
+        width: 100%;
+    }
+}
