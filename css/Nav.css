@@ -11,7 +11,7 @@ nav{
 }
 
 .logo-div-nav img{
-
+    filter: hue-rotate(100deg);
     max-width: 30px;
     max-height: 30px;
 }

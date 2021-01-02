@@ -61,10 +61,10 @@
 
 
 .main-background img:nth-child(1){
-    bottom: 0;
+    bottom: 0px;
     position: absolute;
-    left:53%;
-    width:32%;
+    left:65%;
+    width:20%;
     opacity: 1;
     z-index: 100;
 }
@@ -83,7 +83,8 @@
     display: flex;
     align-items:flex-start;
     flex-direction: column;
-    padding-left: 70px;
+    width: 95%;
+    padding-top: 70px;
   
 }
 
@@ -98,7 +99,7 @@
 
 .m-b-content-h1-b-button p{
     color: var(--white-color);
-    font-size: 15px;
+    font-size: 12px;
     line-height: 27px;
     padding-bottom: 20px;
 }
@@ -117,8 +118,8 @@
 
 .text-mass{
     position: absolute;
-    left: 77%;
-    top: 30%;
+    left: 79%;
+    top: 35%;
     z-index: 100;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 11% 96%, 40% 74%, 0% 75%);
     border-radius: 10px;
@@ -128,6 +129,6 @@
     color:var(--white-color);
     width: 100px;
     padding-left:5px;
-    height:60px;
-    background-image: linear-gradient(to right ,#303E87 50%,#BB2B7D 50%);
+    height:65px;
+    background:#BB2B7D;
 }
