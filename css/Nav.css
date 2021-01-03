@@ -14,6 +14,7 @@ nav{
     background-image: linear-gradient(to right  , #333B86 10% ,#BB2B7D 70%);
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
+    box-shadow: 0 3px 1rem 0 rgba(0,0,0,.3);
 }
 
 
