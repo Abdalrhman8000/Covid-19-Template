@@ -7,9 +7,15 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(0,0,0,.3);
     box-shadow: 0 0 0 .3px #fff;
 }
+
+.back-nav-chang{
+    background-image: linear-gradient(to right  , #333B86 10% ,#BB2B7D 70%);
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
 
 .logo-div-nav img{
     filter: hue-rotate(100deg);

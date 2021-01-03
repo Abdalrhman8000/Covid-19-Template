@@ -76,3 +76,27 @@
     width: 25%;
 }
 
+
+/* Js-Animation-Strat*/
+
+.sec-4{
+    background-color: rgb(211, 214, 216);
+    opacity: 0;
+}
+.sec-4-4-4{
+  position: relative;
+  animation: animate4 1.5s  1 linear forwards;
+}
+
+
+@keyframes animate4{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+/* Js-Animation-End*/

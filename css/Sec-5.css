@@ -54,3 +54,31 @@
         width: 100%;
     }
 }
+
+/* Js-Animation-Srat*/
+
+.sec-5{
+    opacity: 0;
+}
+.sec-5-5-5{
+  position: relative;
+  animation: animate 1.2s  1 linear forwards ;
+}
+
+
+@keyframes animate{
+    0%{
+        left:-20%;
+        opacity: 0;
+    }
+
+   
+
+
+    100%{
+        left:0;
+        opacity: 1;
+    }
+}
+
+/* Js-Animation-End*/

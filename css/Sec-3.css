@@ -63,4 +63,34 @@
      border-radius: 50%;
      filter: hue-rotate(100deg);
  }
- 
+
+
+ /* Js-Animation-Srat*/
+.sec-3{
+    opacity: 0;
+    overflow: visible;
+}
+.sec-3-3-3{
+  position: relative;
+  animation: animate3 1.2s  1 linear forwards ;
+}
+
+
+
+
+@keyframes animate3{
+    0%{
+        left:100%;
+        opacity: 0;
+    }
+
+   
+
+
+    100%{
+        left:0;
+        opacity: 1;
+    }
+}
+
+/* Js-Animation-End*/
