@@ -9,6 +9,7 @@
 
 .item-2,.item-3,.item-4{
     width: 20%;
+    opacity: 0;
 }
 
 .item-1{
@@ -20,6 +21,7 @@
     text-align: left;
     font-weight: 500;
     font-size: 19px;
+    opacity: 0;
 }
 
 
@@ -106,14 +108,33 @@
 
 
 /* Js-Animation-Srat*/
-.sec-2{
-    opacity: 0;
-    overflow: visible;
-}
-.sec-2-2-2{
+
+.sec-2-2-1{
   position: relative;
   animation: animate2 1.2s  1 linear forwards ;
+  animation-delay: .1s;
 }
+
+
+.sec-2-2-2{
+    position: relative;
+    animation: animate2 1.2s  1 linear forwards ;
+    animation-delay: .3s;
+  }
+
+  
+.sec-2-2-3{
+    position: relative;
+    animation: animate2 1.2s  1 linear forwards ;
+    animation-delay: .5s;
+  }
+
+
+  .sec-2-2-4{
+    position: relative;
+    animation: animate2 1.2s  1 linear forwards ;
+    animation-delay: .7s;
+  }
 
 
 

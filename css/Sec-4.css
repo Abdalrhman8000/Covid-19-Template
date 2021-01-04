@@ -1,7 +1,7 @@
 .sec-4{
     height: 110vh;
     overflow: hidden;
-    background-color:#a8a8a8;
+    background-color: rgb(211, 214, 216);
 }
 
 .line {
@@ -79,24 +79,40 @@
 
 /* Js-Animation-Strat*/
 
-.sec-4{
-    background-color: rgb(211, 214, 216);
+.content-1,.special-img-1,.special-img-2{
     opacity: 0;
 }
-.sec-4-4-4{
+.sec-4-4-1{
   position: relative;
   animation: animate4 1.5s  1 linear forwards;
+  animation-delay: .1s;
 }
 
+
+.sec-4-4-2{
+    animation: animate4 1.5s  1 linear forwards;
+    animation-delay: .5s;
+  }
+
+  
+  .sec-4-4-3{
+    animation: animate4 1.5s  1 linear forwards;
+    animation-delay: .9s;
+  }
+  
+ 
 
 @keyframes animate4{
     0%{
         opacity: 0;
+        transform: scale(0,0);
     }
 
     100%{
+        transform: scale(1,1);
         opacity: 1;
     }
 }
+
 
 /* Js-Animation-End*/
